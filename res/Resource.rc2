@@ -1,0 +1,19 @@
+#ifdef APSTUDIO_INVOKED
+  #error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+// Строковые сообщения
+STRINGTABLE
+BEGIN
+	IDS_NODOC				"Документ не активизирован или\nне является документом 3D"
+	IDS_FAILED_TO_STORE_TMP_FILE				"Не удалось создать STL файл во временной директории"
+END
+
+
+// Меню
+IDR_LIBID MENU
+BEGIN
+	MENUITEM "Открыть в Slic3r",						1
+END
+
+/////////////////////////////////////////////////////////////////////////////
